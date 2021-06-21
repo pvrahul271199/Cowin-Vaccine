@@ -117,6 +117,7 @@ const mailFunction = async (apiData, length) => {
         // sessions is an array so we have to assign 1st element of sessions to variables
         const {
             date,
+            vaccine,
             available_capacity,
             min_age_limit,
             available_capacity_dose1,
@@ -131,7 +132,8 @@ const mailFunction = async (apiData, length) => {
             subject: 'Vaccine Available',
             text: `
             Center Id: ${center_id}
-            Hospital Name: ${name},
+            Vaccine: ${vaccine}
+            Hospital Name: ${name}
             Address: ${address}
             Location: ${block_name}, ${district_name}, ${state_name} ${pincode}
             from: ${from}
