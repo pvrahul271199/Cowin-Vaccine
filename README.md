@@ -29,7 +29,7 @@ npm install
 
 4. Make sure you have given access to Less Secured Apps in your Google Account.
 
-5. Run the app an it will start in PORT 80
+5. Run the app and it will start in PORT 80
  ```sh
  npm start
 ```
