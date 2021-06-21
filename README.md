@@ -20,9 +20,12 @@ npm install
 
 3. Change the existing pincode to your Pincode(in line 18) in app.js
 
-4. create a new .env file in the same directory with the content as follows:
+4. Create a new `.env` file in the same directory with the content as follows:
+
+```sh
 > email: 'your gmail id'
 > password: 'your gmail password'
+```
 
 4. Make sure you have given access to Less Secured Apps in your Google Account.
 
