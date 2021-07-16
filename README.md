@@ -12,7 +12,7 @@ This NodeJS Script will send you an Email when Vaccines are available in any of 
 > cd Cowin-Vaccine/
  ```
  
-2. With `node` and `npm` installed, run the following command to install all dependencies:
+2. With `node` installed, run the following command to install all dependencies:
 
 ```sh
 npm install 
